@@ -30,8 +30,8 @@ function App(props: any) {
             <Raiting value={3}/>
             <Raiting value={4}/>
             <Raiting value={5}/>
-            <OnOff value={false}/>
-            <OnOff value={true}/>
+            <OnOff/>
+            {/*<OnOff/>*/}
         </>
     );
 }
