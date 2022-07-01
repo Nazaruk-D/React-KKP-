@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Accordion from "./components/Accordion/Accordion";
 import {Raiting} from "./components/Rating/Raiting";
+import {OnOff} from "./components/OnOff/OnOff";
 
 
 //function declaration
@@ -29,6 +30,8 @@ function App(props: any) {
             <Raiting value={3}/>
             <Raiting value={4}/>
             <Raiting value={5}/>
+            <OnOff value={false}/>
+            <OnOff value={true}/>
         </>
     );
 }

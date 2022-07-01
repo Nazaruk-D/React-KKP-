@@ -1,0 +1,45 @@
+.circleRed {
+  width: 20px;
+  height: 20px;
+  background: indianred;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: 1px solid black
+}
+.circleGreen {
+  width: 20px;
+  height: 20px;
+  background: greenyellow;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  border: 1px solid black
+}
+
+td {
+  width: 80px;
+  height: 40px;
+  background-color: gray;
+  text-align: center;
+  border: 2px solid black; /* Граница вокруг ячеек */
+}
+
+.on {
+  background-color: greenyellow;
+  margin: 20px 20px 20px 20px;
+}
+
+.off {
+  background-color: indianred;
+}
+
+.grey {
+  background-color: grey;
+}
+
+
+
+
+
+
