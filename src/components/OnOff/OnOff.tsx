@@ -9,6 +9,16 @@ type OnOffPropsType = {
 
 export const OnOff = (props: OnOffPropsType) => {
 
+    // const onStyle = {   // новая запись с видео useState
+    //     width: "30px",
+    //     height: "20px",
+    //     border: "1px solid black",
+    //     display: "inline-block",
+    //     padding: "2px",
+    //     backgroundColor: props.on ? "green" : "grey"
+    // }
+
+
     const [a, setA] = useState("On");
 
     function onClickHandler(value: string) {

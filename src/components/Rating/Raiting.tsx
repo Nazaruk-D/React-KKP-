@@ -20,6 +20,8 @@ type StarPropsType = {
     selected: boolean
 }
 
+// function Star(props: StarPropsType) {(props.selected) ? <span><b>star </b></span> : <span>star </span>} // как сделать сокращенную запись этого кода?
+
 function Star(props: StarPropsType) {
     if (props.selected) {
         return <span><b>star </b></span>;
