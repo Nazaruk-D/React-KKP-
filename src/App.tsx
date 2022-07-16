@@ -13,13 +13,13 @@ function App(props: any) {
     console.log("App rendering")
 
     let [raitingValue, setRaitingValue] = useState<RatingValueType>(2)
+    let [accordionValue, setAccordionValue] = useState<boolean>(false)
 
     return (
         <div className={"App"}>
             <PageTitle title={"This is APP component"}/>
             <PageTitle title={"My friends"}/>
-            {/*<Raiting value={3}/>*/}
-            {/*<Accordion titleValue={"Menu"} collapsed={true}/>*/}
+            <Accordion titleValue={"Menu"} onClick={()=>setAccordionValue(!accordionValue)} collapsed={accordionValue} />
             <UncontrolledAccordion titleValue={"Users"}/>
             <UncontrolledAccordion titleValue={"Users"}/>
             <UncontrolledRating/>
