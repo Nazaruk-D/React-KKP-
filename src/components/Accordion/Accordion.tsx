@@ -12,8 +12,7 @@ function Accordion(props: AccordionPropsType) {
         <div>
             <AccordionTitle title={props.titleValue} onClick={props.onClick}/>
             {!props.collapsed && <AccordionBody/>}
-
-            {/*{props.collapsed === false && <AccordionBody/> }*/} // старая запись
+            {/*{props.collapsed === false && <AccordionBody/> }*/}
         </div>
     );
 }
@@ -25,7 +24,7 @@ type AccordionTitlePropsType = {
 
 function AccordionTitle(props: AccordionTitlePropsType) {
     return (
-        <h3 onClick={props.onClick}> {props.title}</h3>
+        <h3 onClick={e => props.onClick()}> {props.title}</h3>
     )
 }
 

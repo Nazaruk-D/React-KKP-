@@ -18,7 +18,6 @@ export const OnOff = (props: OnOffPropsType) => {
     //     backgroundColor: props.on ? "green" : "grey"
     // }
 
-
     const [a, setA] = useState("On");
 
     function onClickHandler(value: string) {
